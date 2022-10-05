@@ -1,0 +1,52 @@
+@charset "utf-8";
+ 
+/* reset*/
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: rgb(54, 168, 130);
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.767);
+    text-align: center;
+    color: white ;
+}
+header > h1 { 
+    font-variant: small-caps;
+    padding-top: 50px;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 10vh;
+}
+section.normal {
+    background-color: rgb(219, 203, 203);
+    color: rgb(26, 25, 25);
+}
+section.imagem {
+    background-color: black;
+    color: black;
+}
+section.imagem > p {
+    width: 300px;
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
+
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.767);
+    text-align: center;
+    color: white ;
+    padding: 10 px;
+}
